@@ -1,0 +1,25 @@
+{
+  "name": "@mirunamu/create-next-kit",
+  "version": "1.0.2",
+  "description": "Create a new Next.js project from Mirunamu FE starter kit",
+  "license": "MIT",
+  "bin": {
+    "create-next-kit": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "template"
+  ],
+  "keywords": [
+    "create",
+    "nextjs",
+    "react",
+    "tailwindcss",
+    "shadcn-ui",
+    "starter",
+    "mirunamu"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
