@@ -1,6 +1,6 @@
 {
   "name": "@mirunamu/create-next-kit",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Create a new Next.js project from Mirunamu FE starter kit",
   "type": "module",
   "license": "MIT",
