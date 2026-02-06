@@ -68,7 +68,7 @@ if (!existsSync(templateDir)) {
 }
 
 console.log();
-console.log(bold(`  @mirunamu/next-kit 프로젝트를 생성합니다...`));
+console.log(bold(`  @mirunamu/create-next-kit 프로젝트를 생성합니다...`));
 console.log();
 
 // template/ → targetDir 전체 복사
