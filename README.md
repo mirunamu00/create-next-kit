@@ -186,6 +186,42 @@ ALLOWED_USERS=user1,user2
 - CSS 변수 기반 (class strategy)
 - 전환 시 깜빡임 방지 (`disableTransitionOnChange`)
 
+#### 컬러 커스터마이징
+
+프로젝트 컬러는 `src/app/globals.css`의 CSS 변수로 관리됩니다. 설치 후 브랜드에 맞게 변경하세요.
+
+```css
+/* src/app/globals.css */
+
+:root {
+  --primary: 239 84% 57%;           /* 메인 컬러 (버튼, 링크, 포커스 링) */
+  --primary-foreground: 0 0% 100%;  /* 메인 컬러 위 텍스트 */
+  --accent: 239 84% 57%;            /* 강조색 */
+  --ring: 239 84% 57%;              /* 포커스 링 */
+}
+
+.dark {
+  --primary: 239 84% 74%;           /* 다크모드 메인 컬러 */
+  --primary-foreground: 240 10% 4%;
+  --accent: 239 84% 74%;
+  --ring: 239 84% 74%;
+}
+```
+
+값은 **HSL 형식** (`색상도 채도% 명도%`)입니다. 주요 변수:
+
+| 변수 | 역할 |
+|---|---|
+| `--primary` | 버튼, 링크, 활성 상태 등 메인 컬러 |
+| `--primary-foreground` | primary 배경 위의 텍스트 색상 |
+| `--accent` | 강조색 (기본값: primary와 동일) |
+| `--ring` | input/button 포커스 링 색상 |
+| `--background` / `--foreground` | 페이지 배경 / 기본 텍스트 |
+| `--muted` / `--muted-foreground` | 보조 배경 / 보조 텍스트 |
+| `--destructive` | 삭제, 에러 등 위험 액션 컬러 |
+
+> **Tip**: [shadcn/ui Themes](https://ui.shadcn.com/themes)에서 원하는 컬러 프리셋을 선택하면 전체 CSS 변수를 한 번에 복사할 수 있습니다.
+
 ### Error Handling
 
 모든 에러 시나리오에 대한 페이지가 준비되어 있습니다.
