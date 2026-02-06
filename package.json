@@ -9,7 +9,8 @@
   },
   "files": [
     "index.mjs",
-    "template"
+    "template",
+    "README.md"
   ],
   "keywords": [
     "create",
