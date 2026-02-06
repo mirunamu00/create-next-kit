@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/mirunamu00/create-next-kit/compare/create-next-kit-v1.1.1...create-next-kit-v1.1.2) (2026-02-06)
+
+
+### Documentation
+
+* add provider guide comments to auth.ts ([0e7e5e4](https://github.com/mirunamu00/create-next-kit/commit/0e7e5e4ffb91b9710a342cc30c047e3b597bdbc3))
+
 ## [1.1.1](https://github.com/mirunamu00/create-next-kit/compare/create-next-kit-v1.1.0...create-next-kit-v1.1.1) (2026-02-06)
 
 
