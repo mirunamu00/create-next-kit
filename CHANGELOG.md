@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/mirunamu00/create-next-kit/compare/create-next-kit-v1.1.2...create-next-kit-v1.2.0) (2026-02-06)
+
+
+### Features
+
+* simplify landing page to hero + footer ([b3af8b4](https://github.com/mirunamu00/create-next-kit/commit/b3af8b4053c65db26f59208939ca44cf2b119c2b))
+
+
+### Miscellaneous
+
+* add build artifacts to gitignore ([2627849](https://github.com/mirunamu00/create-next-kit/commit/2627849dcf299d41f5224f5d89fe4aa90cad2627))
+
 ## [1.1.2](https://github.com/mirunamu00/create-next-kit/compare/create-next-kit-v1.1.1...create-next-kit-v1.1.2) (2026-02-06)
 
 
