@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/mirunamu00/create-next-kit/compare/create-next-kit-v1.2.0...create-next-kit-v1.2.1) (2026-02-06)
+
+
+### Bug Fixes
+
+* include README.md in npm package files ([ad3199c](https://github.com/mirunamu00/create-next-kit/commit/ad3199c1f86a99c9b23dc2dd27cc739bbcdb4dad))
+
 ## [1.2.0](https://github.com/mirunamu00/create-next-kit/compare/create-next-kit-v1.1.2...create-next-kit-v1.2.0) (2026-02-06)
 
 
